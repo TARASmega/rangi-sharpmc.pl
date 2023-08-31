@@ -1,239 +1,110 @@
-<!DOCTYPE html>
-<html lang="pl">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="Shortcut icon" href="./img/logo.png">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="./image/title.png">
-        <title>Rangi | SharpMC.pl</title>
-        <meta name="author" content="TARAS_mega"/>
-        <meta name="keywords" content="Opis rang serwera sharpmc.pl"/>
-        <meta name="descryption" content="rangi" />
-        <link rel="stylesheet" href="main.css">
-        <script src="https://kit.fontawesome.com/43c7871a61.js" crossorigin="anonymous"></script>
-    </head>
-<body> 
-    
-        <table>
-            <tr>
-                <th>OPIS RANG</th>
-                <th>GRACZ</th>
-                <th>VIP</th>
-                <th>MVIP</th>
-                <th>SHARP</th>
-            </tr>
-            <tr>
-                <td>Ważność rangi</td>
-                <td>NA ZAWSZE</td>
-                <td>NA EDYCJE / NA ZAWSZE</td>
-                <td>NA EDYCJE / NA ZAWSZE</td>
-                <td>NA EDYCJE / NA ZAWSZE</td>
-            </tr>
-            <tr>
-                <td>Cena rangi</td>
-                <td>0ZŁ</td>
-                <td>14.99 zł / 29.99 zł</td>
-                <td>29.99 zł / 59.99 zł</td>
-                <td>49.99 zł / 99.99 zł</td>
-            </tr>
-            <tr>
-                <td>Dołączenie na pełen serwer</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Ranga premium na <a href="https://discord.gg/caY5zdDmDb">discord</a></td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Prefix</td>
-                <td class="grey">SZARY</td>
-                <td class="green">ZIELONY</td>
-                <td class="blue">MORSKI</td>
-                <td class="tomato">POMARAŃCZOWY</td>
-            </tr>
-            <tr>
-                <td>Unikatowy kolorowy nickname na tabie</td>
-                <td class="grey">SZARY</td>
-                <td class="green">ZIELONY</td>
-                <td class="blue">MORSKI</td>
-                <td class="tomato">POMARAŃCZOWY</td>
-            </tr>
-            <tr>
-                <td>Unikatowy kolor nicku na chacie</td>
-                <td class="grey">SZARY</td>
-                <td class="green">ZIELONY</td>
-                <td class="blue">MORSKI</td>
-                <td class="tomato">POMARAŃCZOWY</td>
-            </tr>
-            <tr>
-                <td>Pisanie kolorem na czacie</td>
-                <td>✘</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Maksymalna iłość domów /sethome</td>
-                <td>4</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-            </tr>
-            <tr>
-                <td>Maksymalna iłość ofert na rynku /ah</td>
-                <td>10</td>
-                <td>13</td>
-                <td>15</td>
-                <td>17</td>
-            </tr>
-            <tr>
-              <td>Itemy wygasają z rynku za</td>
-              <td>5 dni</td>
-              <td>10 dni</td>
-              <td>15 dni</td>
-              <td>20 dni</td>
-            </tr>
-            <tr>
-            <td>Twoje itemy na /ah wyświetlane są wyżej od innych.</td>
-            <td>✘</td>
-            <td>✔</td>
-            <td>✔</td>
-            <td>✔</td>
-            </tr>
-            <tr>
-                <td>Maksymalna iłosć działek 20x20</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-            </tr>
-            <tr>
-                <td>Maksymalna iłosć działek 30x30</td>
-                <td>Wyłączone</td>
-                <td>Wyłączone</td>
-                <td>Wyłączone</td>
-                <td>Wyłączone</td>
-            </tr>
-            <tr>
-                <td>Zestawy /kits</td>
-                <td>gracz, jedzenie</td>
-                <td>vip</td>
-                <td>vip, mvip</td>
-                <td>vip, mvip, sharp</td>
-            </tr>
-            <tr>
-                <td>Userzanie administracji</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Użyj bloku jako czapki /hat</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Teleportacja do spawnu /spawn</td>
-                <td>5s</td>
-                <td>4s</td>
-                <td>3s</td>
-                <td>2s</td>
-            </tr>
-            <tr>
-                <td>Naprawa przedmiotów /repair</td>
-                <td>✘</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Naprawa wszystkich przedmiotów na raz <br>/repair all</td>
-                <td>✘</td>
-                <td>✘</td>
-                <td>✘</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Leczenie się /heal</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Ender czest /ec</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Dostęp do /lay, /crawl, /spin</td>
-                <td>✘</td>
-                <td>✘</td>
-                <td>✘</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Kanały premium na <a href="https://discord.gg/caY5zdDmDb">discord</a> serverowym</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>xxxx</td>
-                <td>✘</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✘</td>
-            </tr>
-            <tr>
-                <td>Emoji pod komendą /emote</td>
-                <td>✘</td>
-                <td>✘</td>
-                <td>✘</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Przenośny crafting pod komenda /wb</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>Aby założyć klan potrzebujesz 50% mniej dolarów</td>
-                <td>✘</td>
-                <td>✔</td>
-                <td>✔</td>
-                <td>✔</td>
-            </tr>
-            <tr>
-                <td>możesz się zatrudnić w</td>
-                <td>2 pracach jednocześnie</td>
-                <td>2 pracach jednocześnie</td>
-                <td>3 pracach jednocześnie</td>
-                <td>4 pracach jednocześnie</td>
-            </tr>
-        </table>
-        <footer>
-          <p>&copy Opis rang stworzyny przez właściciela <span>TARAS_mega</span>, jesli znalazłeś bląd lub masz 
-            wątpliwości co do rang napisz do <a href="https://discord.gg/R3sRftRE">mnie!</a></p>
-            <div class="icon-box">
-                <a href="https://discord.gg/R3sRftRE"><i class="fa-brands fa-discord"></i></a>
-                <a href="https://github.com/TARASmega"><i class="fa-brands fa-github"></i></a>
-            </div>
-        </footer>
-</body>
-</html>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+                                                
+  background-color: #333;
+}
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+table a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #dd1212;
+  font-weight: bold;
+}
+table {
+  color: #fff;
+  border-collapse: collapse;
+  font-size: 16px;
+  width: 100%;
+  height: 2000px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid #333;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  white-space: nowrap;
+  transition: background-color .2s;
+}
+th {
+  background-color: #0076E8;
+  color: white;
+  transition: .3s;
+}
+td:hover {
+  background-color: #0076E8;
+}
+.grey {
+  color: grey;
+}
+.green {
+  color: lime;
+}
+.blue {
+  color: aqua;
+}
+.tomato {
+  color: rgb(255, 110, 6);
+}
+.royalblue {
+  color: royalblue;
+}
+/* footer */
+footer {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  background-color: #3b3a3a;
+}
+footer p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+  color: #0076E8;
+  text-align: center;
+}
+footer a {
+  color: #4b8bc6;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color .5s;
+}
+footer a:hover {
+  color: #fff;
+}
+.icon-box {
+  position: absolute;
+  top: 59%;
+  left: 80%;
+  transform: translate(-80%, -80%);
+  font-size: 30px; 
+}
+.fa-discord {
+  transition: font-size .3s;
+}
+.fa-github {
+  transition: font-size .3s;
+}
+.fa-discord:hover {
+  font-size: 35px;
+}
+.fa-github:hover {
+  font-size: 35px;
+}
