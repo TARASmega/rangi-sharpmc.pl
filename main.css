@@ -4,7 +4,7 @@
     padding: 0;
 }
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: monospace;
     background-color: #333;
 }
 .table-wrapper {
@@ -13,6 +13,12 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #dd1212;
+    font-weight: bold;
 }
 table {
     color: #fff;
@@ -30,16 +36,14 @@ th, td {
     text-align: center;
     font-weight: bold;
     white-space: nowrap;
+    transition: background-color .2s;
 }
 th {
     background-color: #0076E8;
     color: white;
     transition: .3s;
 }
-tr {
-    transition: background-color .5s;
-}
-tr:hover {
+td:hover {
     background-color: #0076E8;
 }
 .grey {
