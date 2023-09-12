@@ -8,7 +8,13 @@ body {
                                                 
   background-color: #333;
 }
-.table-wrapper {
+.fa-xmark {
+  background-color: red;
+}
+.fa-check {
+  background-color: lime;
+}
+
   display: flex;
   justify-content: center;
   align-items: center;
