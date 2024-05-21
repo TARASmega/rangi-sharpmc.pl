@@ -1,83 +1,123 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: sans-serif;                                      
-  background-color: black;
-}
-.fa-xmark {
-  color: red;
-  font-size: 25px;
-}
-.fa-check {
-  color: lime;
-  font-size: 25px;
-}
-table a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #dd1212;
-  font-weight: bold;
-}
-table {
-  text-transform: uppercase;
-  color: #fff;
-  border-collapse: collapse;
-  font-size: 16px;
-  width: 100%;
-  height: 2000px;
-  max-width: 1200px;
-  margin: 0 auto;
-  border: 2px solid #333;
-}
-th, td {
-  border: 1px solid rgba(21, 75, 90, 0.8);
-  padding: 8px;
-  text-align: center;
-  font-weight: bold;
-  white-space: nowrap;
-  transition: background-color .2s;
-}
-th {
-  background-color: #0076E8;
-  transition: .3s;
-}
-td:hover {
-  background-color: #0076E8;
-}
-.grey {
-  color: grey;
-}
-.green {
-  color: lime;
-}
-.blue {
-  color: aqua;
-}
-.tomato {
-  color: rgb(255, 110, 6);
-}
-.royalblue {
-  color: royalblue;
-}
-/* footer */
-footer {
-  position: relative;
-  height: 100px;
-}
-footer p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 27px;
-  color: #fff;
-}
-/* wrap */
-.wrapper {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1500px;
-}
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Nunito Sans", sans-serif;                                      
+    background-color: #060f21;
+  }
+  .fa-xmark {
+    color: red;
+    font-size: 25px;
+  }
+  .two {
+    background-color: #030b1a;
+  }
+  .fa-check {
+    color: lime;
+    font-size: 25px;
+  }
+  table a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #dd1212;
+    font-weight: bold;
+  }
+  table {
+    color: #fff;
+    border-collapse: collapse;
+    font-size: 16px;
+    width: 100%;
+    height: 2000px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid #333;
+  }
+  th, td {
+    height: 100px;
+    border: 1px solid rgba(21, 75, 90, 0.8);
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: background-color .2s;
+  }
+  th {
+    font-size: 20px;
+    transition: .3s;
+  }
+  .grey {
+    font-weight: 100;
+    color: #c1b4b4;
+    font-family: 'Minecraft', sans-serif;
+  }
+  .green {
+    font-weight: 100;
+    color: #02ff06;
+    font-family: 'Minecraft', sans-serif;
+  }
+  .minecraft-font {
+    font-family: 'Minecraft', sans-serif;
+  }
+  .yellow {
+    font-weight: 100;
+    color: rgba(255, 255, 2);
+    font-family: 'Minecraft', sans-serif;
+  }
+  .blue {
+    font-weight: 100;
+    color: #54fbfb;
+    font-family: 'Minecraft', sans-serif;
+  }
+  .tomato {
+    font-weight: 100;
+    color: #ff7b00;
+    font-family: 'Minecraft', sans-serif;
+  }
+  .royalblue {
+    color: royalblue;
+  }
+  /* footer */
+  footer {
+    position: relative;
+    height: 100px;
+  }
+  .gracz {
+    color: #c1b4b4;
+    font-family: 'Minecraft', sans-serif;
+  }
+  .vip {
+    color: #02ff06;
+    font-family: 'Minecraft', sans-serif;                                       
+  }
+  .svip {
+    color: rgba(255, 255, 2);
+    font-family: 'Minecraft', sans-serif;                                        
+  }
+  .mvip {
+    color: #54fbfb;
+    font-family: 'Minecraft', sans-serif;
+  }
+  .sharp {
+    color: #ff7b00;
+    font-family: 'Minecraft', sans-serif;
+  }
+  footer p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 27px;
+    color: #fff;
+  }
+  .th-hight {
+    height: 160px;
+  }
+  /* wrap */
+  .wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+  }
+  
